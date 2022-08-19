@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.amount-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.balance-container {
+  display: flex;
+  align-items: center;
+  background-color: #ecfccb;
+  margin: 10px;
+  border: 1px solid #84cc16;
+  justify-content: center;
+  border-radius: 5px;
+  width: 161px;
+  height: 81px;
+}
+.income-container {
+  display: flex;
+  align-items: center;
+  background-color: #cffafe;
+  margin: 10px;
+  border: 1px solid #06b6d4;
+
+  border-radius: 5px;
+  width: 161px;
+  height: 81px;
+}
+.expenses-container {
+  display: flex;
+  align-items: center;
+  background-color: #ede9fe;
+  margin: 10px;
+  border: 1px solid #7c3aed;
+
+  border-radius: 5px;
+  width: 161px;
+  height: 81px;
+}
+.amount-img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-right: 5px;
+}
+.text-container {
+  margin-left: 5px;
+  padding: 5px;
+}
+.balance-text {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.amount-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
